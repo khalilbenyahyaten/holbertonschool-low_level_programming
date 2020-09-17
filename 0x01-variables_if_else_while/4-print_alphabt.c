@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
 *main - function main
 *
 *Description: prints the alphabet without e and q
