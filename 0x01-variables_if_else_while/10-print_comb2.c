@@ -9,10 +9,12 @@
 */
 int main(void)
 {
-int i, a;
+int i;
+int a;
+
 for (i = '0'; i <= '9' ; i++)
 {
-for (a = '0'; a <= '0'; a++)
+for (a = '0'; a <= '9'; a++)
 {
 if (i != '0' || a != '0')
 {
