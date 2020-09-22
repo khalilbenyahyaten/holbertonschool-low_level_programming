@@ -1,14 +1,13 @@
 #include "holberton.h"
 /**
- *
- *main - main function
- *
- *Description: checks the nature of a number
- *
- *
- *Return: depends on the nature of a number
- *
- */
+*print_sign - main function
+*
+* @n: checks the nature of a number n
+*
+*
+*Return: depends on the nature of a number
+*
+*/
 int print_sign(int n)
 {
 if (n > 0)
