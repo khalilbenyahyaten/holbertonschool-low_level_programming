@@ -16,7 +16,7 @@ if (a < 0)
 {
 n = n * -1;
 _putchar ('0' + n);
- return (n);
+return (n);
 }
 else
 _putchar ('0' + n);
