@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
+ *main - main function
  *
+ *Description: debugging
  *
- *
- *
- *
+ *Return: void
  *
  */
 int main(void)
