@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * main - main function
+ * _islower - main function
  *
- *Description: checks if a charachter is lowercase or uppercase
+ *@c: checks if a charachter is lowercase or uppercase
  *
  *Return: depends on the charachter
  *
