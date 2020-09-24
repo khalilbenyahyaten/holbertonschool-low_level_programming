@@ -1,11 +1,10 @@
 #include "holberton.h"
 /**
- * print_most_numbers : main function
+ * print_most_numbers - main function
  *
- *Description:prints all digits except 2 and 4 
+ * Description: prints all digits except 2 and 4
  *
  * Return: void
- *
  *
  */
 
