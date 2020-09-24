@@ -5,7 +5,6 @@
  *
  *@n: input
  *
- * 
  * Return: void
  */
 void print_number(int n)
