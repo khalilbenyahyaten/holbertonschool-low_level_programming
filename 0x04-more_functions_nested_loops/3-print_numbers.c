@@ -1,6 +1,5 @@
 #include "holberton.h"
 /**
- *
  *print_numbers - main function
  *
  *
