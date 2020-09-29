@@ -2,7 +2,7 @@
 /**
  *reset_to_98 - main function
  *
- *
+ *@n: pointer
  *
  *Return: void
  *
