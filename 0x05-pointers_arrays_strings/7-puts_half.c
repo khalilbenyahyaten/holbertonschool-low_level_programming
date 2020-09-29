@@ -23,7 +23,7 @@ _putchar(str[k]);
 }
 else
 {
-n = (n + 1) / 2;
+n = (n - 1) / 2;
 for (k = n; k < i; k++)
 {
 _putchar(str[k]);
