@@ -16,7 +16,7 @@ for (i = 1; str[i] ; i++)
 if (i % 2 == 0)
 {
 n = i / 2;
-for (k = n; k < i; k++)
+for (k = n; k <= i; k++)
 {
 _putchar(str[k]);
 }
@@ -25,7 +25,7 @@ else
 if (i % 2 != 0)
 {
 n = (i - 1) / 2;
-for (k = n; k < i; k++)
+for (k = n; k <= i; k++)
 {
 _putchar(str[k]);
 }
