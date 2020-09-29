@@ -9,8 +9,8 @@
 void puts_half(char *str)
 {
 int i, n, k;
- i = 0;
-for (i = 0; str[i] ; i++)
+n = 0;
+for (i = -1; str[i] ; i++)
 {
 }
 if (i % 2 == 0)
