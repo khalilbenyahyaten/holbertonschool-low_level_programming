@@ -10,9 +10,11 @@ void puts_half(char *str)
 {
 int i, n, k;
 n = 0;
-for (i = 1; str[i] ; i++)
+for (i = 0; str[i] ; i++)
 {
 }
+while (i != 0)
+{
 if (i % 2 == 0)
 {
 n = i / 2;
@@ -28,6 +30,7 @@ n = (i - 1) / 2;
 for (k = n; k <= i; k++)
 {
 _putchar(str[k]);
+}
 }
 }
 _putchar('\n');
