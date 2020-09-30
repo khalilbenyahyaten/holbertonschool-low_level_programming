@@ -13,7 +13,7 @@ n = 0;
 for (i = 0; str[i] ; i++)
 {
 }
-while (i != 0)
+if (i != 0)
 {
 if (i % 2 == 0)
 {
