@@ -2,8 +2,8 @@
 /**
  * *_strcat - cancats two strings
  *
- *
- *
+ *@dest: string
+ *@src: string
  *
  *Return: string
  *
