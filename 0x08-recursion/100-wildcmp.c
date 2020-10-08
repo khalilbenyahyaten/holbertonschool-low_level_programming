@@ -1,9 +1,13 @@
 #include <stdio.h>
 /**
  * wildcmp - compare two strings
- * @s1: the first
- * @s2: the second
- * Return: 0 or 1
+ *
+ *
+ *@s1: first string
+ *@s2: second string
+ *
+ *
+ *Return: integer
  */
 int wildcmp(char *s1, char *s2)
 {
