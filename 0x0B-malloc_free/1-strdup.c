@@ -19,7 +19,7 @@ if (str == '\0')
 {
 return (NULL);
 }
-ch = malloc(i * sizeof(char));
+ch = malloc(i * sizeof(char) + 1);
 if (ch == '\0')
 {
 return (NULL);
