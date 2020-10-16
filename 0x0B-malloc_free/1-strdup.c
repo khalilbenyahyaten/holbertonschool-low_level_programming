@@ -15,11 +15,12 @@ char *ch;
 for (i = 0; str[i]; i++)
 {
 }
- if (str == 0)
+i++;
+if (str == 0)
 {
 return (NULL);
 }
-ch = malloc(sizeof(char) * i + 1);
+ch = malloc(sizeof(char) * i);
 if (ch == 0)
 {
 return (NULL);
