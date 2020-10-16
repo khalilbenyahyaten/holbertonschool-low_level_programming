@@ -15,7 +15,7 @@ char *ch;
 for (i = 0; str[i]; i++)
 {
 }
-if (i == 0)
+if (str == '\0')
 {
 return (NULL);
 }
@@ -24,7 +24,7 @@ if (ch == '\0')
 {
 return (NULL);
 }
-for (j = 0; str[j]; j++)
+for (j = 0; j <= i; j++)
 {
 ch[j] = str[j];
 }
