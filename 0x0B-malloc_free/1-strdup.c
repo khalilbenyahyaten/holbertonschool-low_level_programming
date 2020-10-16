@@ -19,12 +19,12 @@ if (str == '\0')
 {
 return (NULL);
 }
-ch = malloc(i * sizeof(char));
+ch = malloc(sizeof(char) * i + 1);
 if (ch == '\0')
 {
 return (NULL);
 }
-for (j = 0; j < i; j++)
+for (j = 0; j <= i; j++)
 {
 ch[j] = str[j];
 }
