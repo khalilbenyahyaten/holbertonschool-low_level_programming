@@ -22,14 +22,14 @@ return (NULL);
 d->name = malloc(sizeof(name) + 1);
 if (d->name == NULL)
 {
-free(d->name);
+free(d);
 return (NULL);
 }
 d->owner = malloc(sizeof(owner) + 1);
 if (d->owner == NULL)
 {
-free(d->owner);
 free(d->name);
+free(d);
 return (NULL);
 }
 d->name = name;
