@@ -12,6 +12,7 @@ void print_all(const char * const format, ...)
 int i;
 va_list valist;
 char *separator, *str, c;
+
 separator = ", ";
 va_start(valist, format);
 i = 0;
@@ -46,6 +47,6 @@ break;
 }
 i++;
 }
-printf("\n");
 va_end(valist);
+printf("\n");
 }
