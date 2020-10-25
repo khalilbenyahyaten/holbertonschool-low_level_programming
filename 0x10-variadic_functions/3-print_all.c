@@ -38,10 +38,8 @@ case 's':
 str = va_arg(valist, char *);
 if (str == '\0')
 {
-printf("(nil)");
-break;
+str = "(nil)";
 }
-else
 printf("%s", str);
 printf("%s", separator);
 break;
