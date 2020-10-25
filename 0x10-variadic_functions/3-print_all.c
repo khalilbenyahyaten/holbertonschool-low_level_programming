@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
@@ -15,7 +14,7 @@ char *separator, *str, c;
 separator = "";
 va_start(valist, format);
 i = 0;
-while (format[i] && format)
+while (format && format[i])
 {
 c = format[i];
 switch (c)
