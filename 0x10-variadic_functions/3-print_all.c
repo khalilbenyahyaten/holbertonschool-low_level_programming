@@ -15,7 +15,7 @@ char *separator, *str, c;
 separator = ", ";
 va_start(valist, format);
 i = 0;
-while (format[i])
+while (format[i] && format)
 {
 if (format[i + 1] == '\0')
 separator = "";
