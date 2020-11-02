@@ -10,15 +10,12 @@
  */
 void free_list(list_t *head)
 {
-list_t *fr;
 
-fr = head;
 while (head != NULL)
 {
-fr = head;
-free(fr->str);
+free(head->str);
 head = head->next;
-free(fr);
 }
+free(head);
 return;
 }
