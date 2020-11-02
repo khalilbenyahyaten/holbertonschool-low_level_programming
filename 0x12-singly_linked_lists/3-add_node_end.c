@@ -19,6 +19,11 @@ ten = malloc(sizeof(list_t));
 if (ten == NULL)
 return (NULL);
 ten->str = strdup(str);
+if (ten->str == NULL)
+{
+free(ten);
+return (NULL);
+}
 for (i = 0; str[i] != '\0'; i++)
 {
 }
