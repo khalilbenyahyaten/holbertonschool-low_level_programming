@@ -2,11 +2,12 @@
 #include <string.h>
 #include <stdio.h>
 /**
+ * add_node_end - adds node at the end of the list
  *
+ *@head: list
+ *@str: string
  *
- *
- *
- *
+ *return: list
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
