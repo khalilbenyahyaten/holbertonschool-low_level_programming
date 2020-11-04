@@ -16,7 +16,7 @@ listint_t *ten, *a;
 if (head == NULL)
 return (NULL);
 a = head;
-while (head != NULL)
+while (a != NULL)
 {
 a = a->next;
 i++;
