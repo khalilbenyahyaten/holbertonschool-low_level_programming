@@ -3,7 +3,7 @@
 /**
  * add_nodeint - adds a node at the begining of the list
  *
- *@h: list
+ *@head: list
  *@n: integer
  *
  *Return: address of the new node
