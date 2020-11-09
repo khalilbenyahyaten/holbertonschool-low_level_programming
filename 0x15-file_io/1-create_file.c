@@ -29,11 +29,10 @@ if (i == 0)
 return (1);
 }
 r = write(fd, text_content, i);
+close(fd);
 if (r < 0)
 {
-close(fd);
 return (-1);
 }
-close(fd);
 return (1);
 }
