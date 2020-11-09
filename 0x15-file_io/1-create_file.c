@@ -20,7 +20,7 @@ int fd, r, i = 0;
 if (filename == NULL)
 return (-1);
 fd = open(filename, O_WRONLY | O_TRUNC | O_CREAT, 0600);
-if (fd == -1)
+if (fd < 0)
 return (-1);
 while (text_content[i] != '\0')
 i++;
@@ -29,7 +29,7 @@ if (i == 0)
 return (1);
 }
 r = write(fd, text_content, i);
-if (r == -1)
+if (r < 0)
 {
 close(fd);
 return (-1);
