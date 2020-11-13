@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 int i, j, k;
 
-for (k = 0; k != '\0'; k++)
+for (k = 0; src[k] != '\0'; k++)
 {
 }
 if (k <= n)
