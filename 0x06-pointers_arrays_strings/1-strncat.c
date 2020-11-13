@@ -20,7 +20,7 @@ if (k > n)
 for (i = 0; dest[i] != '\0'; i++)
 {
 }
-for (j = 0; j != n; j++)
+for (j = 0; j != k; j++)
 {
 dest[i] = src[j];
 }
