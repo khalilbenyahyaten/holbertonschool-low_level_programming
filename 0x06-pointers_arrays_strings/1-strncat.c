@@ -23,6 +23,7 @@ if (k > n)
 for (j = 0; j != n; j++)
 {
 dest[i] = src[j];
+i++;
 }
 }
 else if (k < n)
@@ -30,6 +31,7 @@ else if (k < n)
 for (j = 0; j != k; j++)
 {
 dest[i] = src[j];
+i++;
 }
 }
 return (dest);
