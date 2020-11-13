@@ -11,18 +11,14 @@
 void print_array(int *a, int n)
 {
 int i;
-char *sep = ", ";
 
 for (i = 0; i < n; i++)
 {
 printf("%d", a[i]);
 if (i < n - 1)
 {
-printf("%s", sep);
+printf(", ");
 }
-else
-{
+}
 printf("\n");
-}
-}
 }
