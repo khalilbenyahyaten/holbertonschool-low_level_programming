@@ -15,13 +15,14 @@ char *sep = ", ";
 
 for (i = 0; i < n; i++)
 {
+printf("%d", a[i]);
 if (i < n - 1)
 {
-printf("%d%s", a[i], sep);
+printf("%s", sep);
 }
 else
 {
-printf("%d\n", a[i]);
+printf("\n");
 }
 }
 }
