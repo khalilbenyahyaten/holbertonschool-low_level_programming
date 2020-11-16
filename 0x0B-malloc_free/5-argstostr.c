@@ -19,6 +19,10 @@ if (av == NULL)
 return (0);
 for (j = 0; av[j] != NULL; j++)
 {
+if (av[j] == NULL)
+{
+return (0);
+}
 i = 0;
 while (av[j][i] != '\0')
 {
