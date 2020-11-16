@@ -30,7 +30,7 @@ i++;
 }
 sum += i;
 }
-str = malloc(sizeof(char) * (sum + ac));
+str = malloc(sizeof(char) * (sum + ac + 1));
 if (str == NULL)
 return (0);
 l = 0;
