@@ -31,7 +31,7 @@ for (j = 0; s2[j] != '\0'; j++)
 }
 }
 if (j < n)
-n = j - 1;
+n = j;
 str = malloc(sizeof(char) * (i + n + 1));
 if (str == NULL)
 return (NULL);
