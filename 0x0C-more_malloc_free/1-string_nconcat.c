@@ -22,6 +22,8 @@ for (j = 0; s2[j] != '\0'; j++)
 if (j < n)
 {
 str = malloc(sizeof(char) * (i + j + 1));
+if (str == NULL)
+return (NULL);
 for (i = 0; s1[i] != '\0'; i++)
 str[i] = s1[i];
 for (j = 0; s2[j] != '\0'; j++)
@@ -33,6 +35,8 @@ i++;
 else
 {
 str = malloc(sizeof(char) * (i + n + 1));
+if (str == NULL)
+return (NULL);
 for (i = 0; s1[i] != '\0'; i++)
 str[i] = s1[i];
 for (j = 0; j < n; j++)
