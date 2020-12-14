@@ -13,9 +13,9 @@ int i = 0;
 
 while (h != NULL)
 {
-printf("%d",h->n);
+printf("%d", h->n);
 h = h->next;
 i++;
 }
-return(i);
+return (i);
 }
