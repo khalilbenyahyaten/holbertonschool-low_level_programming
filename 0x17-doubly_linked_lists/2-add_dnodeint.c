@@ -22,6 +22,7 @@ new->n = n;
 *head = new;
 if (*head != NULL)
 {
+(*head)->prev = new;
 return (*head);
 }
 else
