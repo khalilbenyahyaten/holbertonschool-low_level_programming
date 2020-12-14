@@ -20,5 +20,12 @@ new->next = *head;
 new->prev = NULL;
 new->n = n;
 *head = new;
+if (*head != NULL)
+{
 return (*head);
+}
+else
+{
+return (NULL);
+}
 }
