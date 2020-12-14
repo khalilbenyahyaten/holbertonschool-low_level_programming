@@ -19,10 +19,10 @@ return (NULL);
 new->next = *head;
 new->prev = NULL;
 new->n = n;
-*head = new;
 if (*head != NULL)
 {
 (*head)->prev = new;
+*head = new;
 return (*head);
 }
 else
