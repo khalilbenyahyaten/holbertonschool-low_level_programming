@@ -20,13 +20,7 @@ new->next = *head;
 new->prev = NULL;
 new->n = n;
 if (*head != NULL)
-{
 (*head)->prev = new;
 *head = new;
 return (*head);
-}
-else
-{
-return (NULL);
-}
 }
