@@ -21,7 +21,7 @@ new->next = NULL;
 new->prev = NULL;
 new->n = n;
 *head = new;
-return(new);
+return (new);
 }
 while (ten->next)
 {
