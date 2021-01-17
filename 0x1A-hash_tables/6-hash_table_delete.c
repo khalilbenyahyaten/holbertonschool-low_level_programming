@@ -25,7 +25,5 @@ ht->array[i] = n;
 }
 }
 free(ht->array);
-ht->array = NULL;
-ht->size = 0;
 free(ht);
 }
