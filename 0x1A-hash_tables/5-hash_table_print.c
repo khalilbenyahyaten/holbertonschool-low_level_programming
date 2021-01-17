@@ -24,7 +24,7 @@ if (x != 0)
 {
 printf(", ");
 }
-printf("'%s': '%s'",ht->array[i]->key, ht->array[i]->value);
+printf("'%s': '%s'", ht->array[i]->key, ht->array[i]->value);
 x++;
 ht->array[i] = ht->array[i]->next;
 }
