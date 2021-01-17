@@ -18,7 +18,7 @@ i = key_index((const unsigned char *)key, ht->size);
 n = ht->array[i];
 while (n)
 {
-if(strcmp(n->key, key) == 0)
+if (strcmp(n->key, key) == 0)
 {
 return (n->value);
 }
