@@ -1,0 +1,5 @@
+all: holberton
+holberton:
+	holberton.o
+holberton.o:
+	holberton.c
