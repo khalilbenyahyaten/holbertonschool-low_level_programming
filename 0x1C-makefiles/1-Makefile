@@ -1,0 +1,6 @@
+all:
+CC:
+	gcc
+SRC:
+	main.c
+	holberton.c
