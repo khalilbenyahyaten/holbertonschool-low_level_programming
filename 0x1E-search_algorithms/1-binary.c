@@ -1,10 +1,10 @@
 #include "search_algos.h"
 /**
-* binary_search - Searching algo in binary way
-* @array: The array to search in
-* @size: size of the array
-* @value: value to be searched
-* Return: the index where found else -1
+* binary_search - binary search algorithm
+* @array: array
+* @size: array size
+* @value: value to search for
+* Return: index or -1
 */
 int binary_search(int *array, size_t size, int value)
 {
